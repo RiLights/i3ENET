@@ -1,6 +1,6 @@
 # i3ENET
 
-Native macOS ENET reads and parameter coding for the BMW i3. Python 3.11 or later; no runtime dependencies, Windows VM or diagnostic app required.
+Native macOS ENET reads and parameter coding for the BMW i3. Python 3.11 or later; no runtime dependencies.
 
 The tool discovers the gateway, verifies its VIN, checks the selected module's software, and reads fresh originals before coding. Signing keys for the supported profiles are included and selected automatically.
 
