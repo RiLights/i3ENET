@@ -1,0 +1,10 @@
+The MIT license covers i3ENET project source and documentation.
+
+The module-specific AS and NCDS signing records in src/i3enet/data are
+separately sourced reference material. Their inclusion does not assert
+ownership of that material or grant third-party rights through the project's
+MIT license. These keys are intentionally public and reusable for compatible
+software profiles; they are not personal vehicle credentials.
+
+The project includes no external application binaries, license credentials,
+certificate stores, complete coding definitions or vehicle captures.

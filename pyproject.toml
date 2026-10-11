@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools==80.9.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "i3enet"
+dynamic = ["version"]
+description = "Native macOS BMW i3 ENET reads and profile-bound parameter coding"
+requires-python = ">=3.11"
+dependencies = []
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE", "NOTICE"]
+classifiers = [
+  "Operating System :: MacOS :: MacOS X",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+]
+
+[project.scripts]
+i3enet = "i3enet.cli:main"
+
+[tool.setuptools.dynamic]
+version = {attr = "i3enet.__version__"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["i3enet", "i3enet.data"]
+namespaces = false
+
+[tool.setuptools.package-data]
+"i3enet.data" = ["*.json", "*.pem"]

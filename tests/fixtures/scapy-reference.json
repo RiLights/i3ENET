@@ -1,0 +1,63 @@
+{
+  "evidence_kind": "SYNTHETIC_FIXTURE",
+  "source_implementation": "https://github.com/secdev/scapy/blob/e2e35c07bce2f40e7513e1b29a6d300d5329dbc3/scapy/contrib/automotive/bmw/hsfz.py",
+  "vehicle_traffic": false,
+  "cases": [
+    {
+      "name": "diagnostic",
+      "control_hex": "0001",
+      "body_hex": "f4a1221234",
+      "wire_hex": "000000050001f4a1221234",
+      "wire_sha256": "0bcd7bd5813dd63b693d26859f05802c7a62e4ad1fe2f3b90de44f3daaca8dfc"
+    },
+    {
+      "name": "ack",
+      "control_hex": "0002",
+      "body_hex": "f4a1221234",
+      "wire_hex": "000000050002f4a1221234",
+      "wire_sha256": "fa0f2aac06d7f930b956a751f7c98343e8848b24b9a2e6d7d27d1bf7f388a232"
+    },
+    {
+      "name": "empty_identification",
+      "control_hex": "0011",
+      "body_hex": "",
+      "wire_hex": "000000000011",
+      "wire_sha256": "386337984fa0a41cac1fa77485544e748ce9fe9a46eba4dcf8714d6a727471a8"
+    },
+    {
+      "name": "identification",
+      "control_hex": "0011",
+      "body_hex": "53594e5448455449432d4944454e54495459",
+      "wire_hex": "00000012001153594e5448455449432d4944454e54495459",
+      "wire_sha256": "9f265692f5ab4288efaca12d6bdce54500a7859a22546098381cb8b0dc9cc9d2"
+    },
+    {
+      "name": "short_alive_opaque",
+      "control_hex": "0012",
+      "body_hex": "00f4",
+      "wire_hex": "00000002001200f4",
+      "wire_sha256": "15a202713a5a7bc00a7c8fbfa4588a89e4bd445c8f323a73d8c2cb298a571872"
+    },
+    {
+      "name": "long_alive_opaque",
+      "control_hex": "0012",
+      "body_hex": "53594e5448455449432d414c495645",
+      "wire_hex": "0000000f001253594e5448455449432d414c495645",
+      "wire_sha256": "961805707f58e92647a03091767d5094f68325e61fde9985be60a3a82cc88183"
+    },
+    {
+      "name": "tester_address_error",
+      "control_hex": "0040",
+      "body_hex": "f4a1",
+      "wire_hex": "000000020040f4a1",
+      "wire_sha256": "096024e0f1edd7e984ebe4446b5b4d140ce501aa3763a6b3f37b30d11fd0a3d5"
+    },
+    {
+      "name": "out_of_memory",
+      "control_hex": "00ff",
+      "body_hex": "",
+      "wire_hex": "0000000000ff",
+      "wire_sha256": "a476bf4614b7f4c1c99252ee7080bb7101a99be0c2ae118c2d386a6c000711b7"
+    }
+  ]
+}

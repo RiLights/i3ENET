@@ -1,0 +1,16 @@
+{
+  "btld": "00001ABA/130.026.001",
+  "cafd": "00000DED/003.015.041",
+  "keys": {
+    "AS": {
+      "file": "HU-AS.pem",
+      "sha256": "5b914dafa0fd59dd0c66ce342d9d9b2e5845cbaf92e6ca631500ada8bd50bb46"
+    },
+    "NCDS": {
+      "file": "HU-NCDS.pem",
+      "sha256": "d248a457b3b01db13a43de84e533069543f930b21f3f654fe4ae3b0ac478ce31"
+    }
+  },
+  "module": "HU",
+  "schema": "i3enet-signing-keys/1"
+}

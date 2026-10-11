@@ -1,0 +1,16 @@
+{
+  "btld": "00001A77/001.001.002",
+  "cafd": "00001A79/001.003.001",
+  "keys": {
+    "AS": {
+      "file": "VSG01-AS.pem",
+      "sha256": "34102375b04389d8b24add6c9b3a4c8ae8435c1e7601f0bb184ab2f472fe118c"
+    },
+    "NCDS": {
+      "file": "VSG01-NCDS.pem",
+      "sha256": "bf0789dbc8a913802c581fc1ac8c15bd1168b54a4896ccb67a630bcfe8a166f5"
+    }
+  },
+  "module": "VSG01",
+  "schema": "i3enet-signing-keys/1"
+}

@@ -1,0 +1,16 @@
+{
+  "btld": "00002418/085.010.060",
+  "cafd": "000017BE/085.010.012",
+  "keys": {
+    "AS": {
+      "file": "BDC-AS.pem",
+      "sha256": "186504f2203bea4aaf2bd2cf03d39763aa08c37cac16e53587d8e7bc3ec9474c"
+    },
+    "NCDS": {
+      "file": "BDC-NCDS.pem",
+      "sha256": "8bebecd3d30eccd8e5cd88fa3419846178996ec8494844125e461b9b4543e355"
+    }
+  },
+  "module": "BDC",
+  "schema": "i3enet-signing-keys/1"
+}
